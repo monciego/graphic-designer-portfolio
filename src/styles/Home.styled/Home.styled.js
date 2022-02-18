@@ -7,7 +7,11 @@ export const StyledHome = styled.main`
   align-items: center;
   width: 95%;
   margin: 0 auto;
-  padding: 8rem 1rem;
+  padding: 8rem 1rem 2rem 0;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+    padding: 8rem 1rem 5rem 0;
+  }
 `;
 
 export const HomeDetails = styled.div``;
