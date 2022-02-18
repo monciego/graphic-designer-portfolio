@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.section`
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+    width: 95%;
+    padding: 0 2rem;
+  }
 `;
 
 export const AboutSupTitle = styled.p`
@@ -16,7 +21,8 @@ export const AboutTitle = styled.h2`
   text-transform: uppercase;
   font-weight: 800;
   border-bottom: 1px solid #ccc;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  padding: 0.15rem 0 0.75rem 0;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 2.5rem;
