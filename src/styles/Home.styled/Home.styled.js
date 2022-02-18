@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const StyledHome = styled.main`
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
   padding: 8rem 1rem;
 `;
 
@@ -23,7 +25,8 @@ export const HomeImage = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
-    width: 88%;
+    width: 95%;
+    height: 20rem;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {

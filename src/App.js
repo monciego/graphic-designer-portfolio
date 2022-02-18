@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "./styles/Theme/theme";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <GlobalStyles />
         <Navbar />
         <Home />
+        <About />
       </>
     </ThemeProvider>
   );
