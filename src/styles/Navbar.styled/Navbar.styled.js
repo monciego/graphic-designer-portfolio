@@ -12,6 +12,8 @@ export const StyledHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: var(--clr-dark);
+  z-index: 500;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding: 1.5rem 3rem;
