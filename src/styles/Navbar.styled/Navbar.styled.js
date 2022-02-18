@@ -20,6 +20,8 @@ export const StyledHeader = styled.header`
 
 export const Logo = styled.h2`
   font-size: 1.25rem;
+  font-family: var(--ff-serif);
+  font-weight: 500;
 `;
 
 export const Menu = styled(MenuBtn)`
@@ -49,6 +51,11 @@ export const NavLink = styled(Link)`
   position: relative;
   font-size: 1rem;
   letter-spacing: 0.5px;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    font-style: italic;
+  }
 
   &::before {
     content: "";

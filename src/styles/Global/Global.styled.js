@@ -16,8 +16,9 @@ export const GlobalStyles = createGlobalStyle`
          --clr-secondar: #FFA63D; //yellow
          
 
-         --ff-serif: 'Frank Ruhl Libre', serif;
+         --ff-serif: 'Playfair Display', serif;
          --ff-sans-serif: 'Mulish', sans-serif;
+         --ff-sans-serif-secondary: 'Montserrat', sans-serif;
      }
     
     body {
