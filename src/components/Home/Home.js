@@ -13,7 +13,7 @@ import {
 
 const Home = () => {
   return (
-    <StyledHome>
+    <StyledHome id="home">
       <HomeDetails>
         <SupTitle>Hello, I'm Christian Bolofer!</SupTitle>
         <Title>
