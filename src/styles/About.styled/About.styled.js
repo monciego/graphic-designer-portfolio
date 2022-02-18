@@ -12,8 +12,12 @@ export const StyledAbout = styled.section`
 `;
 
 export const AboutSupTitle = styled.p`
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 600;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+    font-size: 1rem;
+  }
 `;
 
 export const AboutTitle = styled.h2`
