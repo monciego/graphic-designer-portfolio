@@ -1,8 +1,16 @@
+import { GlobalStyles } from "./styles/Global/Global.styled";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./styles/Theme/theme";
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
   return (
-    <>
-      <h1>Christian Bolofer</h1>
-    </>
+    <ThemeProvider theme={theme}>
+      <>
+        <GlobalStyles />
+        <Navbar />
+      </>
+    </ThemeProvider>
   );
 };
 
