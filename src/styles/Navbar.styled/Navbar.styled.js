@@ -21,9 +21,13 @@ export const StyledHeader = styled.header`
 `;
 
 export const Logo = styled.h2`
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: var(--ff-serif);
   font-weight: 500;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+    font-size: 1.25rem;
+  }
 `;
 
 export const Menu = styled(MenuBtn)`
