@@ -9,6 +9,7 @@ import {
   StyledHeader,
 } from "../../styles/Navbar.styled/Navbar.styled";
 import MobileMenu from "../MobileMenu/MobileMenu";
+import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,6 +18,10 @@ const Navbar = () => {
 
   const toggleHandler = () => {
     setToggle(!toggle);
+  };
+
+  const toBottom = () => {
+    scroll.scrollToBottom({ delay: 0, duration: 650 });
   };
 
   return (
@@ -32,16 +37,49 @@ const Navbar = () => {
 
         <NavLists>
           <NavList>
-            <NavLink to="home">Home</NavLink>
+            <NavLink
+              smooth={true}
+              duration={650}
+              delay={0}
+              spyThrottle={0}
+              to="home"
+            >
+              Home
+            </NavLink>
           </NavList>
           <NavList>
-            <NavLink to="about">Story</NavLink>
+            <NavLink
+              smooth={true}
+              duration={650}
+              delay={0}
+              spyThrottle={0}
+              to="about"
+            >
+              Story
+            </NavLink>
           </NavList>
           <NavList>
-            <NavLink to="work">Work</NavLink>
+            <NavLink
+              smooth={true}
+              duration={650}
+              delay={0}
+              spyThrottle={0}
+              to="work"
+            >
+              Work
+            </NavLink>
           </NavList>
           <NavList>
-            <NavLink to="contact">Contact</NavLink>
+            <NavLink
+              onClick={toBottom}
+              smooth={true}
+              duration={650}
+              delay={0}
+              spyThrottle={0}
+              to="contact"
+            >
+              Contact
+            </NavLink>
           </NavList>
         </NavLists>
       </StyledHeader>
