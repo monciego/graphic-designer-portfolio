@@ -14,7 +14,7 @@ const About = () => {
     <StyledAbout id="about">
       <SectionSupTitle>ABOUT ME</SectionSupTitle>
       <SectionTitle>
-        AIDING BRANDS TO COMMUNICATE WITH <br /> THEIR AUDIENCE IN ELEGANT WAY
+        HELPING BRANDS TO COMMUNICATE WITH <br /> THEIR AUDIENCE IN ELEGANT WAY
       </SectionTitle>
       <AboutDetails>
         <AboutText>
