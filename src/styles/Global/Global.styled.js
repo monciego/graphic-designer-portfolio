@@ -14,13 +14,8 @@ export const GlobalStyles = createGlobalStyle`
          --clr-dark-secondary: #191919;
          --clr-white: #FFFFFF;
 
-         --clr-primary: #0045FA; // violet
-         --clr-secondar: #FFA63D; //yellow
-         
-
          --ff-serif: 'Playfair Display', serif;
          --ff-serif-secondary: 'Cinzel', serif;
-
          --ff-sans-serif: 'Syncopate', sans-serif;
          --ff-sans-serif-secondary: 'Montserrat', sans-serif;
          --ff-sans-serif-tertiary: 'Mulish', sans-serif;
