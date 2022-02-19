@@ -39,7 +39,7 @@ export const HomeImg = styled.img`
 `;
 
 export const SupTitle = styled.h3`
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-family: var(--ff-sans-serif-secondary);
   font-style: oblique;
   font-weight: bold;
@@ -56,10 +56,10 @@ export const Title = styled.h1`
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 1px solid #ccc;
-  font-size: 2.5rem;
+  font-size: 3rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 3.5rem;
+    font-size: 3.85rem;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
@@ -75,10 +75,11 @@ export const SubTitles = styled.div`
 `;
 
 export const Subtitle = styled.div`
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 0.9rem;
+    font-weight: 600;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
