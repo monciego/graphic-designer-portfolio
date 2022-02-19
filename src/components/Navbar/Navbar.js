@@ -10,7 +10,6 @@ import {
 } from "../../styles/Navbar.styled/Navbar.styled";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { animateScroll as scroll } from "react-scroll";
-import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -33,9 +32,7 @@ const Navbar = () => {
     <>
       <MobileMenu toggleHandler={toggleHandler} isOpen={toggle} />
       <StyledHeader>
-        <Link onClick={toTop}>
-          <Logo>Christian</Logo>
-        </Link>
+        <Logo onClick={toTop}>Christian</Logo>
         {toggle ? (
           <Close onClick={toggleHandler} />
         ) : (
