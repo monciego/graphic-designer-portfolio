@@ -44,6 +44,7 @@ export const SupTitle = styled.h3`
   font-style: oblique;
   font-weight: bold;
   text-transform: uppercase;
+  color: var(--clr-light-secondary);
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 1rem;
@@ -72,6 +73,7 @@ export const SubTitles = styled.div`
   font-family: var(--ff-sans-serif-secondary);
   display: flex;
   justify-content: space-between;
+  color: var(--clr-light-secondary);
 `;
 
 export const Subtitle = styled.div`

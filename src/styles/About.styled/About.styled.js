@@ -16,5 +16,5 @@ export const AboutDetails = styled.div``;
 export const AboutText = styled.p`
   margin: 1rem 0;
   letter-spacing: 0.5px;
-  color: #d3d3d3;
+  color: var(--clr-light-secondary);
 `;

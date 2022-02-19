@@ -28,7 +28,7 @@ export const StyledProjectCard = styled.figure``;
 export const ProjectCardImage = styled.figure`
   height: 15rem;
   width: 100%;
-  background-color: #191919;
+  background-color: var(--clr-dark-secondary);
   padding: 0.75rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {

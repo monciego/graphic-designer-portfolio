@@ -9,7 +9,9 @@ export const GlobalStyles = createGlobalStyle`
 
      :root {
          --clr-light: #EDF2F8;
-         --clr-dark: #0f0f0f;
+         --clr-light-secondary: #EEEEEE;
+         --clr-dark: #0F0E0E;
+         --clr-dark-secondary: #191919;
          --clr-white: #FFFFFF;
 
          --clr-primary: #0045FA; // violet
