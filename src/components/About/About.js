@@ -1,19 +1,21 @@
 import React from "react";
 import {
   AboutDetails,
-  AboutSupTitle,
   AboutText,
-  AboutTitle,
   StyledAbout,
 } from "../../styles/About.styled/About.styled";
+import {
+  SectionSupTitle,
+  SectionTitle,
+} from "../../styles/Section.styled/SectionHeader";
 
 const About = () => {
   return (
     <StyledAbout id="about">
-      <AboutSupTitle>ABOUT ME</AboutSupTitle>
-      <AboutTitle>
+      <SectionSupTitle>ABOUT ME</SectionSupTitle>
+      <SectionTitle>
         AIDING BRANDS TO COMMUNICATE WITH <br /> THEIR AUDIENCE IN ELEGANT WAY
-      </AboutTitle>
+      </SectionTitle>
       <AboutDetails>
         <AboutText>
           Kumusta! I'm Christian Bolofer, a student from Pangasinan State
