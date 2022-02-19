@@ -8,4 +8,8 @@ export const Container = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     margin-bottom: 60vh;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
+    margin-bottom: 30vh;
+  }
 `;

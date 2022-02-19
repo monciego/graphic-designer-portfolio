@@ -25,34 +25,31 @@ const Footer = () => {
             rel="noopener noreferrer"
             href="https://web.facebook.com/iamchrstnblfr"
           >
-            facebook{" "}
+            facebook
           </Social>
-          —{" "}
+          &nbsp;-&nbsp;
           <Social
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.behance.net/iamchrstnblfr"
           >
-            {" "}
-            BEHANCE{" "}
+            BEHANCE
           </Social>
-          —
+          &nbsp;-&nbsp;
           <Social
             target="_blank"
             rel="noopener noreferrer"
             href="https://dribbble.com/ChanBolo/shots"
           >
-            {" "}
-            DRIBBBLE{" "}
+            DRIBBBLE
           </Social>
-          —
+          &nbsp;-&nbsp;
           <Social
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.instagram.com/iamchrstnblfr/"
           >
-            {" "}
-            INSTAGRAM{" "}
+            INSTAGRAM
           </Social>
         </Socials>
         <Developed>

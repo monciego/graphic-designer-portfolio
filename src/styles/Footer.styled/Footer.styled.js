@@ -16,6 +16,10 @@ export const StyledFooter = styled.footer`
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     height: 60vh;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
+    height: 30vh;
+  }
 `;
 
 export const StyledFooterMainText = styled.a`
@@ -33,24 +37,24 @@ export const StyledFooterMainText = styled.a`
     right: 0;
     bottom: 0;
     background-color: var(--clr-white);
-    height: 5px;
+    height: 3px;
     transition: 0.3s ease;
     z-index: -1;
   }
 
   &:hover::before {
-    height: 8px;
+    height: 5px;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: 2rem;
 
     &::before {
-      height: 3px;
+      height: 5px;
     }
 
     &:hover::before {
-      height: 5px;
+      height: 8px;
     }
   }
 
