@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
-import { VscMenu as MenuBtn } from "react-icons/vsc";
+import { VscMenu as MenuBtn, VscClose as CloseBtn } from "react-icons/vsc";
 
 export const StyledHeader = styled.header`
   padding: 1rem 2rem;
@@ -31,6 +31,15 @@ export const Logo = styled.h2`
 `;
 
 export const Menu = styled(MenuBtn)`
+  cursor: pointer;
+  font-size: 1.25rem;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
+    display: none;
+  }
+`;
+
+export const Close = styled(CloseBtn)`
   cursor: pointer;
   font-size: 1.25rem;
 
