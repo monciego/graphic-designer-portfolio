@@ -13,11 +13,17 @@ export const StyledProject = styled.section`
 
 export const ProjectsContainer = styled.div`
   margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+
+  @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
 `;
 
-export const StyledProjectCard = styled.figure`
-  margin-bottom: 2rem;
-`;
+export const StyledProjectCard = styled.figure``;
 
 export const ProjectCardImage = styled.figure`
   height: 15rem;
@@ -48,16 +54,13 @@ export const ProjectDetails = styled.div`
   align-items: center;
   justify-content: space-between;
   text-transform: uppercase;
+  padding: 0 0.25rem;
 `;
 
 export const ProjectName = styled.h2`
   font-family: var(--ff-sans-serif-secondary);
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1rem;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 1.25rem;
-  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
     font-size: 0.85rem;
@@ -75,6 +78,6 @@ export const ProjectCategory = styled.h3`
   font-size: 0.75rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
 `;
