@@ -10,6 +10,8 @@ import {
   SupTitle,
   Title,
 } from "../../styles/Home.styled/Home.styled";
+import { HomeImg } from "../../styles/Home.styled/Home.styled";
+import img from "../../assets/home-image.jpg";
 
 const Home = () => {
   return (
@@ -35,10 +37,7 @@ const Home = () => {
         </SubTitles>
       </HomeDetails>
       <HomeImage>
-        <img
-          src="https://images.pexels.com/photos/3117550/pexels-photo-3117550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          alt=""
-        />
+        <HomeImg src={img} alt="Home" />
       </HomeImage>
     </StyledHome>
   );

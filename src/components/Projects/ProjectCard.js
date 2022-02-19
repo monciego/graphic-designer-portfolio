@@ -3,6 +3,7 @@ import {
   ProjectCardImage,
   ProjectCategory,
   ProjectDetails,
+  ProjectImg,
   ProjectName,
   ProjectNumber,
   StyledProjectCard,
@@ -12,7 +13,7 @@ const ProjectCard = ({ name, img, number, category }) => {
   return (
     <StyledProjectCard>
       <ProjectCardImage>
-        <img src={img} alt={name} />
+        <ProjectImg src={img} alt={name} />
       </ProjectCardImage>
       <ProjectDetails>
         <ProjectName>

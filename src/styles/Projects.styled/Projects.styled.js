@@ -31,12 +31,6 @@ export const ProjectCardImage = styled.figure`
   background-color: #191919;
   padding: 0.75rem;
 
-  & img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     height: 22rem;
     padding: 1rem;
@@ -46,6 +40,12 @@ export const ProjectCardImage = styled.figure`
     height: 10rem;
     padding: 0.5rem;
   }
+`;
+
+export const ProjectImg = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
 
 export const ProjectDetails = styled.div`

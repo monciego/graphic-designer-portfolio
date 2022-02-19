@@ -22,12 +22,6 @@ export const HomeImage = styled.div`
   margin: 1.5rem auto 0 auto;
   background: gray;
 
-  & img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-
   @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
     width: 95%;
     height: 20rem;
@@ -36,6 +30,12 @@ export const HomeImage = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
     height: 7rem;
   }
+`;
+
+export const HomeImg = styled.img`
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 `;
 
 export const SupTitle = styled.h3`
