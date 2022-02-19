@@ -17,18 +17,18 @@ export const ProjectsContainer = styled.div`
 export const StyledProjectCard = styled.figure``;
 
 export const ProjectCardImage = styled.figure`
-  height: 15rem;
+  height: 18rem;
   width: 100%;
   background-color: var(--clr-dark-secondary);
   padding: 0.75rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    height: 22rem;
+    height: 25rem;
     padding: 1rem;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    height: 10rem;
+    height: 15rem;
     padding: 0.5rem;
   }
 `;
