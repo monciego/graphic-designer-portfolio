@@ -8,10 +8,10 @@ export const StyledHome = styled.main`
   max-width: 95%;
   width: 100%;
   margin: 0 auto;
-  padding: 6.5rem 0 2rem 0;
+  padding: 5rem 0 2rem 0;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
-    padding: 7.5rem 0 0 0;
+    padding: 6.75rem 0 0 0;
   }
 `;
 

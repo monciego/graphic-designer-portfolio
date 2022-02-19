@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { VscMenu as MenuBtn } from "react-icons/vsc";
 
 export const StyledHeader = styled.header`
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   position: fixed;
   left: 0;
   right: 0;
