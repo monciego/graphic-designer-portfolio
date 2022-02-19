@@ -54,7 +54,7 @@ export const SupTitle = styled.h3`
 `;
 
 export const Title = styled.h1`
-  font-family: var(--ff-sans-serif-tertiary);
+  font-family: var(--ff-sans-serif);
   text-transform: uppercase;
   font-weight: bold;
   border-bottom: 1px solid #ccc;

@@ -49,7 +49,7 @@ export const ProjectDetails = styled.div`
 `;
 
 export const ProjectName = styled.h2`
-  font-family: var(--ff-sans-serif-tertiary);
+  font-family: var(--ff-sans-serif);
   font-weight: 800;
   font-size: 1rem;
 
@@ -63,7 +63,7 @@ export const ProjectNumber = styled.span`
 `;
 
 export const ProjectCategory = styled.h3`
-  font-family: var(--ff-sans-serif-tertiary);
+  font-family: var(--ff-sans-serif);
   font-weight: 500;
   font-style: oblique;
   font-size: 0.75rem;

@@ -12,7 +12,7 @@ export const SectionSupTitle = styled.p`
 `;
 
 export const SectionTitle = styled.h2`
-  font-family: var(--ff-sans-serif-tertiary);
+  font-family: var(--ff-sans-serif);
   text-transform: uppercase;
   font-weight: 800;
   border-bottom: 1px solid #ccc;

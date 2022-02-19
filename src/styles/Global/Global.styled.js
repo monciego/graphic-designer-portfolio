@@ -20,16 +20,16 @@ export const GlobalStyles = createGlobalStyle`
 
          --ff-serif: 'Playfair Display', serif;
          --ff-serif-secondary: 'Cinzel', serif;
-         --ff-sans-serif: 'Mulish', sans-serif;
-         --ff-sans-serif-secondary: 'Montserrat', sans-serif;
-         --ff-sans-serif-tertiary: 'Syncopate', sans-serif;
 
+         --ff-sans-serif: 'Syncopate', sans-serif;
+         --ff-sans-serif-secondary: 'Montserrat', sans-serif;
+         --ff-sans-serif-tertiary: 'Mulish', sans-serif;
      }
     
     body {
         background: var(--clr-dark);
         color: var(--clr-white);
-        font-family: var(--ff-sans-serif);
+        font-family: var(--ff-sans-serif-tertiary);
     }
 
     section {

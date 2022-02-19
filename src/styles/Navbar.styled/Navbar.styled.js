@@ -60,7 +60,7 @@ export const NavLink = styled(Link)`
   letter-spacing: 0.5px;
   transition: 0.25s ease-in-out;
   text-transform: uppercase;
-  font-family: var(--ff-sans-serif-tertiary);
+  font-family: var(--ff-sans-serif);
 
   &:hover {
     font-style: italic;
