@@ -20,6 +20,8 @@ export const GlobalStyles = createGlobalStyle`
          --ff-serif-secondary: 'Cinzel', serif;
          --ff-sans-serif: 'Mulish', sans-serif;
          --ff-sans-serif-secondary: 'Montserrat', sans-serif;
+         --ff-sans-serif-tertiary: 'Syncopate', sans-serif;
+
      }
     
     body {
