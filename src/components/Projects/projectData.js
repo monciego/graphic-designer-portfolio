@@ -1,19 +1,24 @@
+import projectImg1 from "../../assets/projects/project-img-1.png";
+import projectImg2 from "../../assets/projects/project-img-2.png";
 import projectImg3 from "../../assets/projects/project-img-3.jpg";
 import projectImg4 from "../../assets/projects/project-img-4.jpg";
 import projectImg5 from "../../assets/projects/project-img-5.jpg";
+import projectImg6 from "../../assets/projects/project-img-6.jpg";
+import projectImg7 from "../../assets/projects/project-img-7.jpg";
+import projectImg8 from "../../assets/projects/project-img-8.jpg";
 
 export const projectData = [
   {
     id: 1,
     name: "Drug Dictionary App",
-    img: "https://images.pexels.com/photos/3786156/pexels-photo-3786156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: projectImg1,
     number: "01",
     category: "ui/ux design",
   },
   {
     id: 2,
     name: "Travel Website",
-    img: "https://images.pexels.com/photos/4353813/pexels-photo-4353813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: projectImg2,
     number: "02",
     category: "ui/ux design",
   },
@@ -36,6 +41,27 @@ export const projectData = [
     name: "Koi",
     img: projectImg5,
     number: "05",
+    category: "graphic design",
+  },
+  {
+    id: 6,
+    name: "Boat",
+    img: projectImg6,
+    number: "06",
+    category: "graphic design",
+  },
+  {
+    id: 7,
+    name: "Sea",
+    img: projectImg7,
+    number: "07",
+    category: "graphic design",
+  },
+  {
+    id: 8,
+    name: "Sun",
+    img: projectImg8,
+    number: "08",
     category: "graphic design",
   },
 ];
