@@ -1,15 +1,6 @@
 import styled from "styled-components";
 
-export const StyledProject = styled.section`
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 1rem;
-
-  @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    width: 95%;
-    padding: 2rem 2rem 0 2rem;
-  }
-`;
+export const StyledProject = styled.section``;
 
 export const ProjectsContainer = styled.div`
   margin: 2rem 0;

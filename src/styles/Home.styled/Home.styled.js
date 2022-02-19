@@ -5,12 +5,13 @@ export const StyledHome = styled.main`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  max-width: 95%;
+  width: 100%;
   margin: 0 auto;
-  padding: 8rem 1rem 2rem 0;
+  padding: 6.5rem 0 2rem 0;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
-    padding: 8rem 1rem 5rem 0;
+    padding: 7.5rem 0 0 0;
   }
 `;
 
@@ -74,6 +75,7 @@ export const SubTitles = styled.div`
   display: flex;
   justify-content: space-between;
   color: var(--clr-light-secondary);
+  gap: 0.5rem;
 `;
 
 export const Subtitle = styled.div`

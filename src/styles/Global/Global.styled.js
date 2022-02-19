@@ -32,5 +32,13 @@ export const GlobalStyles = createGlobalStyle`
         font-family: var(--ff-sans-serif);
     }
 
-  
+    section {
+        max-width: 95%;
+        width: 100%;
+        margin: 0 auto;
+
+        @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+          padding: 5rem 0 0 0;
+        }
+    }
 `;
