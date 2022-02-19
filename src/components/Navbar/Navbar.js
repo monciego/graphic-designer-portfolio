@@ -10,6 +10,7 @@ import {
 } from "../../styles/Navbar.styled/Navbar.styled";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import { animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -24,11 +25,17 @@ const Navbar = () => {
     scroll.scrollToBottom({ delay: 0, duration: 650 });
   };
 
+  const toTop = () => {
+    scroll.scrollToTop({ delay: 0, duration: 650 });
+  };
+
   return (
     <>
       <MobileMenu toggleHandler={toggleHandler} isOpen={toggle} />
       <StyledHeader>
-        <Logo>Christian</Logo>
+        <Link onClick={toTop}>
+          <Logo>Christian</Logo>
+        </Link>
         {toggle ? (
           <Close onClick={toggleHandler} />
         ) : (

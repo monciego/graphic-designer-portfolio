@@ -24,6 +24,7 @@ export const Logo = styled.h2`
   font-size: 1rem;
   font-family: var(--ff-serif);
   font-weight: 500;
+  cursor: pointer;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 1.25rem;
