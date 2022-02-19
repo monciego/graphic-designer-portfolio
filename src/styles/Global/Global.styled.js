@@ -17,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
          
 
          --ff-serif: 'Playfair Display', serif;
+         --ff-serif-secondary: 'Cinzel', serif;
          --ff-sans-serif: 'Mulish', sans-serif;
          --ff-sans-serif-secondary: 'Montserrat', sans-serif;
      }
