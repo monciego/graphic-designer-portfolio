@@ -39,24 +39,27 @@ export const HomeImg = styled.img`
 `;
 
 export const SupTitle = styled.h3`
-  font-size: 1rem;
-  font-family: var(--ff-serif);
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-family: var(--ff-sans-serif-secondary);
+  font-style: oblique;
+  font-weight: bold;
+  text-transform: uppercase;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 `;
 
 export const Title = styled.h1`
-  font-family: var(--ff-sans-serif-secondary);
+  font-family: var(--ff-sans-serif-tertiary);
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: bold;
   border-bottom: 1px solid #ccc;
-  font-size: 3rem;
+  font-size: 2.5rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 4.25em;
+    font-size: 3.5rem;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.xs}) {

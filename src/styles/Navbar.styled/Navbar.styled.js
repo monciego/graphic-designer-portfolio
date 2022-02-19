@@ -55,9 +55,12 @@ export const NavList = styled.li``;
 export const NavLink = styled(Link)`
   cursor: pointer;
   position: relative;
-  font-size: 1rem;
+  font-size: 0.85rem;
+  font-weight: bold;
   letter-spacing: 0.5px;
   transition: 0.25s ease-in-out;
+  text-transform: uppercase;
+  font-family: var(--ff-sans-serif-tertiary);
 
   &:hover {
     font-style: italic;
