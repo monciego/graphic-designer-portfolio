@@ -49,7 +49,7 @@ export const ProjectDetails = styled.div`
 `;
 
 export const ProjectName = styled.h2`
-  font-family: var(--ff-sans-serif-secondary);
+  font-family: var(--ff-sans-serif-tertiary);
   font-weight: 800;
   font-size: 1rem;
 
@@ -59,14 +59,15 @@ export const ProjectName = styled.h2`
 `;
 
 export const ProjectNumber = styled.span`
-  font-family: var(--ff-serif-secondary);
+  font-family: var(--ff-sans-serif-secondary);
 `;
 
 export const ProjectCategory = styled.h3`
-  font-family: var(--ff-sans-serif-secondary);
-  font-weight: 600;
+  font-family: var(--ff-sans-serif-tertiary);
+  font-weight: 500;
   font-style: oblique;
   font-size: 0.75rem;
+  color: var(--clr-light-secondary);
 
   @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 0.85rem;
